@@ -145,6 +145,7 @@
 
 .card__image-label {
   position: absolute;
+  z-index: 1;
   inset-inline-end: 25px;
   inset-block-start: 25px;
   font-family: var(--accent-font);
@@ -153,6 +154,7 @@
   opacity: 0.5;
   color: var(--accent-color);
   mix-blend-mode: hard-light;
+  text-transform: uppercase;
 }
 
 .card__image {
@@ -321,6 +323,34 @@
 dialog::backdrop {
   opacity: 0.75;
   background-color: #000;
+}
+
+.card_2__filter {
+  filter: grayscale(70%);
+}
+
+.card_3__filter {
+  filter: invert(75%);
+}
+
+.card_4__filter {
+  filter: blur(2px);
+}
+
+.card_5__filter {
+  filter: sepia(70%);
+}
+
+.card_6__filter {
+  filter: brightness(1.4) hue-rotate(270deg) saturate(130%) invert(5%);
+}
+
+.card_7__filter {
+  filter: opacity(75%);
+}
+
+.card_8__filter {
+  filter: saturate(250%);
 }
 
 @media (width <= 375px) {
