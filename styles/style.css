@@ -43,8 +43,7 @@
 
 .header__decoration {
   font-size: clamp(3.063rem, 2.71rem + 1.502vw, 4.063rem);
-  margin-block-start: 136px;
-  margin-block-end: 21px;
+  margin-block: clamp(7.5rem, 7.148rem + 1.502vw, 8.5rem) 21px;
 }
 
 .header__title {
@@ -62,6 +61,7 @@
   text-transform: uppercase;
   transition: 0.3s opacity ease;
   outline: none;
+  padding-inline: 0;
 }
 
 .theme-menu__button:hover {
@@ -82,7 +82,7 @@
   position: absolute;
   display: block;
   background-color: var(--accent-color);
-  inline-size: 90%;
+  inline-size: 100%;
   block-size: 2px;
   transform-origin: left;
   transition: 0.3s transform ease;
@@ -178,8 +178,9 @@
 
 .card__buttons-wrapper {
   display: flex;
-  gap: 7px;
+  gap: 4px;
   align-self: flex-end;
+  max-block-size: 38px;
 }
 
 .card__icon-button {
@@ -203,7 +204,7 @@
 }
 
 .like-icon {
-  inline-size: 39px; /*Тут надо подгонять под макет*/
+  inline-size: 39px;
   block-size: 36px;
 }
 
@@ -241,8 +242,7 @@
 }
 
 .card__like-button {
-  width: 130px;
-  padding: 7px 0;
+  padding: 7px 35px;
 }
 
 .button__text {
@@ -258,8 +258,6 @@
 .footer {
   margin-block-start: 50px;
 }
-
-/*!!!Идея!!! добавить всем кнопкам класс button и закинуть туда все общие стили И ДОБАВИТЬ ИМ ВСЕМ cursor:pointer (если будет уместно)*/
 
 .save-button {
   display: flex;
@@ -294,8 +292,8 @@
 }
 
 .dialog-icon {
-  inline-size: 77px;
-  block-size: 57px;
+  inline-size: 80px;
+  block-size: 59px;
   color: var(--accent-color);
 }
 
@@ -310,7 +308,7 @@
 .close-button {
   border: 2px solid var(--accent-color);
   background-color: transparent;
-  padding: 11px 17px 8px 17px;
+  padding: 9px 17px 6px 17px;
 }
 
 .close-button .button__text {
@@ -361,11 +359,13 @@ dialog::backdrop {
   }
 
   .dialog[open] {
-    padding: 30px 36px;
+    max-inline-size: 341px;
+    padding: 30px 36px 30px 39px;
+    gap: 28px;
   }
 
   .dialog-icon {
-    inline-size: 80px;
+    inline-size: 95px;
     block-size: 60px;
   }
 }

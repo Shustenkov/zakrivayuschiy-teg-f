@@ -43,11 +43,6 @@
   transition: 0.3s 0.05s fill linear;
 }
 
-/* .like-icon .core {
-  fill: var(--background-color);
-  transition: 0.3s 0.03s fill linear;
-} */
-
 /*:active*/
 .like-icon:active .core {
   fill: var(--main-body-color);

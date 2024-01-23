@@ -9,10 +9,8 @@
   --text-font-weight: 400;
   --background-color: #fff;
   --accent-color: #000;
-  --button-text-color: #fff; /*Возможно нужно будет выкинуть некоторые переменные для сердца*/
-  /* --sparks-color: #FF0000; */
+  --button-text-color: #fff;
   --contour-color: #000;
-  /* --main-body-color: #FF0000; */
   --page-background: repeating-linear-gradient(
       to right,
       #d3d3d3 0 2px,
@@ -28,9 +26,7 @@
   --background-color: #000;
   --accent-color: #00cc14;
   --button-text-color: #00cc14;
-  /* --sparks-color: #FF0000; */
   --contour-color: #00cc14;
-  /* --main-body-color: #FF0000; */
   --page-background: repeating-linear-gradient(
       to right,
       #000 0 2px,
@@ -47,9 +43,7 @@
     --background-color: #000;
     --accent-color: #00cc14;
     --button-text-color: #00cc14;
-    /* --sparks-color: #FF0000; */
     --contour-color: #00cc14;
-    /* --main-body-color: #FF0000; */
     --page-background: repeating-linear-gradient(
         to right,
         #000 0 2px,
