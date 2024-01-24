@@ -115,7 +115,7 @@
 .theme-menu__list {
   display: flex;
   flex-direction: column;
-  gap: 9px;
+  gap: 11px;
   margin-inline-start: 18px;
 }
 
