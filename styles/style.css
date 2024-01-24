@@ -78,7 +78,10 @@
 
 .theme-menu__button:not(:disabled)::after {
   content: "";
+  position: absolute;
   display: block;
+  inset-inline-start: 0;
+  inset-block-end: -1px;
   background-color: var(--accent-color, #000);
   inline-size: 100%;
   block-size: 2px;
