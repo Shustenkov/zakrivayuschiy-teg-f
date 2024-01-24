@@ -16,6 +16,7 @@
 .like-icon {
   inline-size: 39px;
   block-size: 36px;
+  transform-origin: center;
 }
 
 .sparks {
@@ -76,10 +77,6 @@
 }
 
 /*heart-scale*/
-.like-icon {
-  transform-origin: center;
-}
-
 .like-icon.is-liked {
   animation: heart-scale 0.3s 0.1s ease-in alternate;
 }
