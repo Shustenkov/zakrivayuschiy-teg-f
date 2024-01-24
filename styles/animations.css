@@ -13,6 +13,11 @@
 Кроме этого, не меняйте HTML переключателя тем. Его разметка также гарантирует работу своего скрипта.
 */
 
+.like-icon {
+  inline-size: 39px;
+  block-size: 36px;
+}
+
 .sparks {
   opacity: 0;
 }
@@ -71,11 +76,11 @@
 }
 
 /*heart-scale*/
-.like-icon .heart {
+.like-icon {
   transform-origin: center;
 }
 
-.like-icon.is-liked .heart {
+.like-icon.is-liked {
   animation: heart-scale 0.3s 0.1s ease-in alternate;
 }
 

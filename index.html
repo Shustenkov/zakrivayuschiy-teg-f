@@ -19,7 +19,7 @@
   </head>
   <body class="page">
     <header class="header">
-      <span class="header__decoration">&lt;/HTML&gt;</span>
+      <a class="header__logo">&lt;/HTML&gt;</a>
       <h1 class="header__title">закрывающий тег</h1>
       <nav class="theme-menu header__theme-menu">
         <!-- Не меняйте разметку этого списка, иначе скрипты перестанут работать -->
@@ -56,19 +56,17 @@
             </h2>
             <div class="card__image-wrapper">
               <span class="card__image-label">&lt;start&gt;</span>
-              <img
-                class="card__image card_1__filter"
-                src="./images/car.png"
-                alt="фургон"
-              />
+              <img class="card__image" src="./images/car.png" alt="фургон" />
             </div>
             <div class="card__basis">
-              <p class="card__text">
-                Это было самое начало пути. На этом этапе важно было
-                проникнуться основами и настроиться на учёбу. И, возможно,
-                подумать, как новые знания могут повлиять на ваше будущее.
-              </p>
-              <p class="card__description">Это было интересно!</p>
+              <div class="card__text">
+                <p>
+                  Это было самое начало пути. На этом этапе важно было
+                  проникнуться основами и настроиться на учёбу. И, возможно,
+                  подумать, как новые знания могут повлиять на ваше будущее.
+                </p>
+                <p>Это было интересно!</p>
+              </div>
               <div class="card__buttons-wrapper">
                 <button type="button" class="card__icon-button">
                   <svg
@@ -76,6 +74,7 @@
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 39 36"
                     fill="none"
+                    aria-hidden="true"
                   >
                     <g class="heart">
                       <path
@@ -114,25 +113,27 @@
             <div class="card__image-wrapper">
               <span class="card__image-label">&lt;stress-test&gt;</span>
               <img
-                class="card__image card_2__filter"
+                class="card__image filter-grayscale"
                 src="https://media3.giphy.com/media/3o7TKNvQyUdSpIE2Q0/giphy.gif?cid=ecf05e47ox7dd7onym9ocq6tc8yescs5hanixwmlalj3p1l3&ep=v1_gifs_search&rid=giphy.gif&ct=g"
                 alt="стресс"
               />
             </div>
             <div class="card__basis">
-              <p class="card__text">
-                На первых этапах мы работали со страхами и сомнениями, которые
-                часто испытывают новички. Один из них — страх перед чистым
-                листом. Это, конечно же, намного сложнее, чем боязнь куска
-                бумаги. Часто за этим ощущением скрываются более глубокие
-                вопросы: с чего начать? а вдруг будет слишком сложно? что, если
-                я не справлюсь?
-              </p>
-              <p class="card__description">
-                Первый проект был, пожалуй, самым волнительным. Страх чистого
-                листа возвращается в каждом новом проекте, но становится всё
-                слабее и слабее.
-              </p>
+              <div class="card__text">
+                <p>
+                  На первых этапах мы работали со страхами и сомнениями, которые
+                  часто испытывают новички. Один из них — страх перед чистым
+                  листом. Это, конечно же, намного сложнее, чем боязнь куска
+                  бумаги. Часто за этим ощущением скрываются более глубокие
+                  вопросы: с чего начать? а вдруг будет слишком сложно? что,
+                  если я не справлюсь?
+                </p>
+                <p>
+                  Первый проект был, пожалуй, самым волнительным. Страх чистого
+                  листа возвращается в каждом новом проекте, но становится всё
+                  слабее и слабее.
+                </p>
+              </div>
               <div class="card__buttons-wrapper">
                 <button type="button" class="card__icon-button">
                   <svg
@@ -140,6 +141,7 @@
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 39 36"
                     fill="none"
+                    aria-hidden="true"
                   >
                     <g class="heart">
                       <path
@@ -178,21 +180,24 @@
             <div class="card__image-wrapper">
               <span class="card__image-label">&lt;inspiration&gt;</span>
               <img
-                class="card__image card_3__filter"
-                src="https://media0.giphy.com/media/zwb4AvXN67p6SlvbIW/giphy.gif?cid=ecf05e47ggxd3su1wc96ff8vp97t2u00tqjpg9f9pkxd3wbt&ep=v1_gifs_search&rid=giphy.gif&ct=g"
+                class="card__image filter-invert"
+                src="https://media0.giphy.com/media/z8nXkMofLS2aBu7evD/giphy.gif?cid=ecf05e47f22o970uwkjsyymbbb88717804pqrqgric5x10kb&ep=v1_gifs_search&rid=giphy.gif&ct=g"
                 alt="mission complete"
               />
             </div>
             <div class="card__basis">
-              <p class="card__text">
-                Первый проект — позади! Но это всё ещё самое начало пути.
-                Радость могла быстро померкнуть и смениться ожиданием провала.
-                Или вы, наоборот, могли вдохновиться успехами и поверить в себя.
-              </p>
-              <p class="card__description">
-                Завершение каждого проекта всегда воодушевляет и мотивирует
-                двигаться дальше.
-              </p>
+              <div class="card__text">
+                <p>
+                  Первый проект — позади! Но это всё ещё самое начало пути.
+                  Радость могла быстро померкнуть и смениться ожиданием провала.
+                  Или вы, наоборот, могли вдохновиться успехами и поверить в
+                  себя.
+                </p>
+                <p>
+                  Завершение каждого проекта всегда воодушевляет и мотивирует
+                  двигаться дальше.
+                </p>
+              </div>
               <div class="card__buttons-wrapper">
                 <button type="button" class="card__icon-button">
                   <svg
@@ -200,6 +205,7 @@
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 39 36"
                     fill="none"
+                    aria-hidden="true"
                   >
                     <g class="heart">
                       <path
@@ -238,23 +244,25 @@
             <div class="card__image-wrapper">
               <span class="card__image-label">&lt;learn&gt;</span>
               <img
-                class="card__image card_4__filter"
+                class="card__image filter-blur"
                 src="https://media0.giphy.com/media/1Q9zqj2WN5GeUOb0MI/giphy.gif?cid=ecf05e47u3k2uh4qhq0mymuuik1q3btt2bypzv5ed8dfw2s5&ep=v1_gifs_search&rid=giphy.gif&ct=g"
                 alt="here to learn"
               />
             </div>
             <div class="card__basis">
-              <p class="card__text">
-                На этом этапе вы уже достаточно разбирались в основах вёрстки,
-                чтобы понять, как много ещё впереди. Вы могли попытаться
-                погнаться за идеалом и понять, что он недостижим. А, может, вы
-                вовсе и не подвержены перфекционизму и вместо того, чтобы
-                сделать идеально, старались просто сделать.
-              </p>
-              <p class="card__description">
-                Нужно стремиться сделать проект как можно более качетсвенно, но
-                иногда дедлайн заставляет искать компромиссы :)
-              </p>
+              <div class="card__text">
+                <p>
+                  На этом этапе вы уже достаточно разбирались в основах вёрстки,
+                  чтобы понять, как много ещё впереди. Вы могли попытаться
+                  погнаться за идеалом и понять, что он недостижим. А, может, вы
+                  вовсе и не подвержены перфекционизму и вместо того, чтобы
+                  сделать идеально, старались просто сделать.
+                </p>
+                <p>
+                  Нужно стремиться сделать проект как можно более качетсвенно,
+                  но иногда дедлайн заставляет искать компромиссы :)
+                </p>
+              </div>
               <div class="card__buttons-wrapper">
                 <button type="button" class="card__icon-button">
                   <svg
@@ -262,6 +270,7 @@
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 39 36"
                     fill="none"
+                    aria-hidden="true"
                   >
                     <g class="heart">
                       <path
@@ -300,24 +309,26 @@
             <div class="card__image-wrapper">
               <span class="card__image-label">&lt;team help&gt;</span>
               <img
-                class="card__image card_5__filter"
+                class="card__image filter-sepia"
                 src="https://media3.giphy.com/media/DpNOlWx7F77IG9stWa/giphy.gif?cid=ecf05e47rfa0xckdj66dgjgtu7uj9v28iswy93qxp561gpl8&ep=v1_gifs_search&rid=giphy.gif&ct=g"
                 alt="люди толкают машину"
               />
             </div>
             <div class="card__basis">
-              <p class="card__text">
-                Всё это время вы были не одиноки (хотя, возможно, иногда и
-                чувствовали, что одни против целого мира). Вас окружали
-                одногруппники, команда сопровождения и просто близкие люди,
-                которым можно пожаловаться, если очередной макет просто так не
-                поддавался. Осваивать что-то новое легче, когда рядом есть
-                единомышленники, не правда ли?
-              </p>
-              <p class="card__description">
-                Близкие люди и единомышленники могут оказать поддержку в трудные
-                моменты жизни, это очень выручает.
-              </p>
+              <div class="card__text">
+                <p>
+                  Всё это время вы были не одиноки (хотя, возможно, иногда и
+                  чувствовали, что одни против целого мира). Вас окружали
+                  одногруппники, команда сопровождения и просто близкие люди,
+                  которым можно пожаловаться, если очередной макет просто так не
+                  поддавался. Осваивать что-то новое легче, когда рядом есть
+                  единомышленники, не правда ли?
+                </p>
+                <p>
+                  Близкие люди и единомышленники могут оказать поддержку в
+                  трудные моменты жизни, это очень выручает.
+                </p>
+              </div>
               <div class="card__buttons-wrapper">
                 <button type="button" class="card__icon-button">
                   <svg
@@ -325,6 +336,7 @@
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 39 36"
                     fill="none"
+                    aria-hidden="true"
                   >
                     <g class="heart">
                       <path
@@ -363,21 +375,23 @@
             <div class="card__image-wrapper">
               <span class="card__image-label">&lt;think different&gt;</span>
               <img
-                class="card__image card_6__filter"
+                class="card__image filter-multiple"
                 src="https://media1.giphy.com/media/mZKw4F6x5puG1T9lDS/giphy.gif?cid=ecf05e471ph0jur7gcm8ororcbfkyzn5rzjx4ej5p4ytlazc&ep=v1_gifs_related&rid=giphy.gif&ct=g"
                 alt="лампочка"
               />
             </div>
             <div class="card__basis">
-              <p class="card__text">
-                На этом курсе вы постоянно решали разные задачи. В какой-то
-                момент вам могло показаться, что решения просто иссякли. Значит,
-                пришло время посмотреть на задачу под другим углом.
-              </p>
-              <p class="card__description">
-                Нетривиальный подход в решении задач часто может удивить своей
-                эффективностью и лаконичностью.
-              </p>
+              <div class="card__text">
+                <p>
+                  На этом курсе вы постоянно решали разные задачи. В какой-то
+                  момент вам могло показаться, что решения просто иссякли.
+                  Значит, пришло время посмотреть на задачу под другим углом.
+                </p>
+                <p>
+                  Нетривиальный подход в решении задач часто может удивить своей
+                  эффективностью и лаконичностью.
+                </p>
+              </div>
               <div class="card__buttons-wrapper">
                 <button type="button" class="card__icon-button">
                   <svg
@@ -385,6 +399,7 @@
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 39 36"
                     fill="none"
+                    aria-hidden="true"
                   >
                     <g class="heart">
                       <path
@@ -423,25 +438,27 @@
             <div class="card__image-wrapper">
               <span class="card__image-label">&lt;focus!&gt;</span>
               <img
-                class="card__image card_7__filter"
+                class="card__image filter-opacity"
                 src="https://media0.giphy.com/media/F1sC33EU29rzWcDBOV/giphy.gif?cid=ecf05e47wrtnxle89euzd2seo0vr31grbin4mz3qtpk5r8fs&ep=v1_gifs_related&rid=giphy.gif&ct=g"
                 alt="фокус"
               />
             </div>
             <div class="card__basis">
-              <p class="card__text">
-                Во время учёбы часто возникает чувство, когда не знаешь, за что
-                хвататься. Вроде и проектную пора сдавать, и задачи хочется
-                порешать, и в теории получше разобраться, и жизнь не забыть
-                пожить. В такие моменты очень нужна концентрация. Вспомните,
-                откуда вы её черпали.
-              </p>
-              <p class="card__description">
-                Бывают такие моменты, что ничего не клеится и не знаешь за что
-                взяться. В такие моменты лучше сделать перерыв, прийти в себя, а
-                перед началом работы проанализировать ситуацию и накидать
-                небольшой план.
-              </p>
+              <div class="card__text">
+                <p>
+                  Во время учёбы часто возникает чувство, когда не знаешь, за
+                  что хвататься. Вроде и проектную пора сдавать, и задачи
+                  хочется порешать, и в теории получше разобраться, и жизнь не
+                  забыть пожить. В такие моменты очень нужна концентрация.
+                  Вспомните, откуда вы её черпали.
+                </p>
+                <p>
+                  Бывают такие моменты, что ничего не клеится и не знаешь за что
+                  взяться. В такие моменты лучше сделать перерыв, прийти в себя,
+                  а перед началом работы проанализировать ситуацию и накидать
+                  небольшой план.
+                </p>
+              </div>
               <div class="card__buttons-wrapper">
                 <button type="button" class="card__icon-button">
                   <svg
@@ -449,6 +466,7 @@
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 39 36"
                     fill="none"
+                    aria-hidden="true"
                   >
                     <g class="heart">
                       <path
@@ -487,24 +505,28 @@
             <div class="card__image-wrapper">
               <span class="card__image-label">&lt;checkpoint!&gt;</span>
               <img
-                class="card__image card_8__filter"
+                class="card__image filter-hue-rotate"
                 src="https://media4.giphy.com/media/26FL4fdR9oRs2tdEA/giphy.gif?cid=ecf05e474e3v68ywslz968ilz199r2pnardws79k8hxd3zce&ep=v1_gifs_search&rid=giphy.gif&ct=g"
                 alt="празднование"
               />
             </div>
             <div class="card__basis">
-              <p class="card__text">
-                Сейчас вы уже очень много знаете о вёрстке. Но это только
-                начало. Во-первых, впереди ещё много материала про «красотищу».
-                Во-вторых, с окончанием курса учёба не заканчивается. Вёрстка —
-                это целый мир. И этот мир постоянно меняется. Познать его
-                полностью не получится, но это тот случай, когда важен сам
-                процесс познания. Ведь часто путь — и есть результат.
-              </p>
-              <p class="card__description">
-                Мир вёрстки действительно очень интересен и разнообразен. После
-                изучения основ хочется двигаться дальше и узнавать всё больше!
-              </p>
+              <div class="card__text">
+                <p>
+                  Сейчас вы уже очень много знаете о вёрстке. Но это только
+                  начало. Во-первых, впереди ещё много материала про
+                  «красотищу». Во-вторых, с окончанием курса учёба не
+                  заканчивается. Вёрстка — это целый мир. И этот мир постоянно
+                  меняется. Познать его полностью не получится, но это тот
+                  случай, когда важен сам процесс познания. Ведь часто путь — и
+                  есть результат.
+                </p>
+                <p>
+                  Мир вёрстки действительно очень интересен и разнообразен.
+                  После изучения основ хочется двигаться дальше и узнавать всё
+                  больше!
+                </p>
+              </div>
               <div class="card__buttons-wrapper">
                 <button type="button" class="card__icon-button">
                   <svg
@@ -512,6 +534,7 @@
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 39 36"
                     fill="none"
+                    aria-hidden="true"
                   >
                     <g class="heart">
                       <path
@@ -545,8 +568,6 @@
           </article>
         </li>
       </ul>
-    </main>
-    <footer class="footer">
       <button
         type="button"
         onclick="window['dialog-id'].showModal();"
@@ -558,7 +579,7 @@
         </svg>
         <span class="button__text">Сохранить на память</span>
       </button>
-    </footer>
+    </main>
     <dialog id="dialog-id" class="dialog">
       <div class="dialog__content">
         <svg class="dialog-icon" viewbox="0 0 40 40">
@@ -566,13 +587,11 @@
         </svg>
         <p class="dialog-text">Вставьте дискету, чтобы продолжить</p>
       </div>
-      <button
-        type="button"
-        onclick="window['dialog-id'].close();"
-        class="close-button text-button"
-      >
-        <span class="button__text">ок</span>
-      </button>
+      <form method="dialog">
+        <button type="submit" class="submit-button text-button">
+          <span class="button__text">ок</span>
+        </button>
+      </form>
     </dialog>
     <script src="./scripts/like.js"></script>
   </body>
