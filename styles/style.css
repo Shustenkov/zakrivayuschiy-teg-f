@@ -353,7 +353,7 @@ dialog::backdrop {
   }
 
   .header__logo {
-    font-size: 49px;
+    font-size: clamp(2.5rem, -0.7727rem + 16.3636vw, 3.0625rem);
   }
 
   .save-button {
