@@ -29,7 +29,7 @@
 .page {
   display: grid;
   justify-items: center;
-  min-inline-size: 370px;
+  min-inline-size: 320px;
   min-block-size: 100dvb;
   font-family: var(--page-font, "Inter", sans-serif);
   font-variation-settings: "wght" var(--text-font-weight, 400);
